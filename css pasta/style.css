@@ -1,0 +1,1133 @@
+:root{
+    --color-primary:#9236dd ;
+    --color-secudary:#3c2915;
+    --color-primary-light: #f5eee6;
+    --color-terceio: #917758;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body {
+        overflow-x:hidden;
+        background-color: var(--color-primary) ;
+        height: 100vh;
+
+    }
+
+.container{
+    
+    margin: 0 auto;
+
+}
+
+/***************
+* HOME - cabeçalho
+****************/
+.home{
+    
+     background-image: url(../imagens/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+.header{
+    padding: 30px 0;
+    
+}
+.home .header .nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+   
+}
+.header .nav-bar ul li {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+}
+.header .nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+.home .header .logo{
+    margin: 10px;
+    width: 20%;
+    
+}
+.header .nav-bar ul li a:hover{
+    color: var(--color-primary) ;
+    border-bottom: 1px solid var(--color-primary);
+}
+
+
+/***************
+* HOME - meio
+****************/
+.home .banner{
+    margin: 70px;
+    color: rgb(229, 183, 226);
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+.home .banner span{
+    display: block;
+}
+
+.home .banner .prof{
+    color: rgb(101, 116, 199);
+    text-shadow:-1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.home .banner h1{
+    font-size: 70px;
+    text-shadow: 0.1em 0.0em #0000008a;
+}
+.home .banner .melhor{
+    font-size: 22px;
+    margin: 10px;
+    text-shadow:-1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+.home .banner .teen{
+    font-size: 20px;
+    text-shadow:-1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+
+    
+}
+
+/***************
+* about -sobre
+****************/
+.about{  
+    background-color: var(--color-terceio);
+    height: 80vh;
+}
+.about .container{
+    display: flex;
+}
+.about .time{
+    width: 33%;
+    padding: 20px;
+    background-image: url(../imagens/thuany.jpeg);
+    position: relative;
+    top: -50px;
+    
+}
+
+.about .time .overlay{
+    background-color: rgba(0,0,0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+.about .time .overlay h3{
+    border-bottom: 1px solid var(--color-primary);
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.about .time .overlay h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow:-1px 0 rgb(255, 255, 255), 0 1px rgb(59, 57, 57),
+    1px 0 rgb(59, 57, 57), 0 -1px rgb(59, 57, 57);
+}
+.text span{
+    font-size: 20px;
+    color: #fdfdfd;
+}
+
+/***************
+* about -parte maior
+****************/
+.about .experience{
+    width: 66%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+
+.about .experience .title h3{
+    font-size: 40px;
+    font-weight: 500;
+    color:white;
+    
+}
+.about .experience .p-text h4{
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+}
+.about .experience .p-text h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+    left: 20px;
+}
+.about .experience .p-text .p2{
+   padding-top: 10px; 
+}
+.title span{
+    font-size:20px ;
+    color:white;
+}
+.about .experience .title{
+   
+    margin-bottom: 10px;
+    justify-items: left;
+}
+.about .experience .p-text{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 15px;
+}
+/***************
+* about-card 1
+****************/
+.card{
+    
+width: 220px;
+height: 200px;
+
+position: absolute;
+right: 500px;
+
+border-radius: 30px;
+background: linear-gradient(145deg, #bdb2b2, #e1d4d4);
+box-shadow:  9px 9px 10px #544f4f,
+             -9px -9px 10px #3c2915;
+}
+.card .quadradoP{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+text-align: center;
+padding-top: 10px;
+}
+.card .quadradoP span{
+    font-size: 25px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+.card .quadradoP p{
+    font-size:18px;
+    padding-top: 35px;
+}
+/***************
+* about-card 2
+****************/
+.card2{
+    
+    width: 220px;
+    height: 200px;
+    
+    position: absolute;
+    right: 200px;
+    
+    border-radius: 30px;
+    background: linear-gradient(145deg, #bdb2b2, #e1d4d4);
+    box-shadow:  9px 9px 10px #544f4f,
+                 -9px -9px 10px #3c2915;
+    }
+.card2 .quadrado2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    }
+.card2 .quadrado2 span{
+        font-size: 25px;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+    }
+    .card2 .quadrado2 p{
+        font-size:18px;
+        padding-top: 35px;
+    }   
+/***************
+* about- PARTE FINAL
+****************/
+.continuação{
+    padding: 100px 0;
+    
+    background-image: url(../imagens/fundo2.png);
+    height: 115vh;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    background-attachment: fixed;
+    color: white;
+    
+    padding-right: 500px;
+}
+.continuação span{
+   
+    
+font-size: 40px;
+font-weight: 500;
+color:rgb(255, 255, 255);
+}
+/***************
+* about- quadrado1
+****************/
+.continuação .container2{
+    display: flex;
+    border-radius: 13px;
+    background-color: rgba(0, 0, 0, 0.445);
+
+width: 220px;
+height: 200px;
+
+position: absolute;
+    top: 130px;
+    right: 200px;
+text-align: center;
+}
+
+.continuação .container2 .textos h6{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.continuação .container2 .textos p{
+    font-size: 18px;
+   padding-top: 20px;
+}
+/***************
+* about- quadrado2
+****************/
+.continuação .janela{
+    display: flex;
+    border-radius: 13px;
+    background-color: rgba(0, 0, 0, 0.445);
+
+width: 220px;
+height: 200px;
+
+position: absolute;
+    top: 250px;
+    right: 500px;
+text-align: center;
+
+}
+
+.continuação .janela .textoes h6{
+    padding-top: 10px;
+    
+    text-align: center;
+    font-size: 22px;  
+}
+.continuação .janela .textoes p{
+    font-size: 18px;
+   padding-top: 20px;
+} 
+/***************
+* about- quadrado3
+****************/
+.continuação .premiacao{
+    display: flex;
+    border-radius: 13px;
+    background-color: rgba(0, 0, 0, 0.445);
+
+width: 220px;
+height: 200px;
+
+position: absolute;
+    top: 450px;
+    right: 200px;
+text-align: center;
+
+}
+.continuação .premiacao .plano h6{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+        
+}
+.continuação .premiacao .plano p{
+    font-size: 18px;
+   padding-top: 20px;
+}
+
+
+.continuação .imagem{
+    display: flex;
+    position: absolute;
+    right: 900px;
+    top:100px;
+}
+
+
+/*BOTAO*/
+.buttonInscricao {
+    top: 800px;
+    right: 650px;
+
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 180px;
+    height: 70px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  .buttonInscricao::before {
+    content: "aqui mesmo!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  .buttonInscricao::after {
+    content: "inscreva-se!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c6c4c4;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  .buttonInscricao:hover::before {
+    transform: translate(0%,0%);
+  }
+  .buttonInscricao:hover::after {
+    transform: translate(0%,-200%);
+  }
+  
+  .buttonInscricao:focus {
+    outline: none;
+  }
+  
+  .buttonInscricao:active {
+    scale: 0.95;
+  }
+
+
+
+
+
+
+/***************
+* about- imagem
+****************/
+.continuação img{
+    width: 100%;  
+    animation: movimento 3s infinite;
+}
+@keyframes movimento{
+    50% {
+        transform: translateY(-10%);
+    }
+}
+/*rodape*/
+.rodape{
+    background-color:black;
+    text-align: center;  
+    height: 100px;  
+ }
+ .rodape h7{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.brilho{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 20px;
+}
+.brilho li{
+    padding-top: 15px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.brilho li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    border: 4px;
+    scale: .1;
+    transform-origin: left;
+    transition: scale .25s;
+}
+.brilho li:hover::before{
+    scale: 1;
+}
+
+.rodape footer{
+    font-size: 10px;
+    top: 30px;
+    color: #ffffff;
+}
+
+
+
+
+/*SEGUNDA PAGINA*/
+.participantes{
+    background-color: rgb(216, 216, 216);
+    height: 300vh;
+    position: relative;
+    display: flex;
+}
+.participantes .party{
+    position: relative;
+    left: 550px;
+}
+.participantes h5{
+    font-family: 'TT Phobos Trial', sans-serif;                   
+    border-bottom: 5px solid var(--color-primary);
+    padding-top: 30px;
+    font-size: 50px;
+}
+.videoapertura{
+    position: relative;
+    top: 200px;
+    right: 30px;
+    text-align: center;
+}
+
+.apert h6{
+    font-family: 'TT Phobos Trial', sans-serif;  
+    font-size: 50px; 
+}
+
+.baby{
+    position: absolute;
+    top: 700px;
+    left: 350px;
+}
+.baby h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* baby
+**/
+.baby1{
+    position: absolute;
+    top: 850px ;
+    left: 50px;
+}
+.baby1 .bebe1{
+    height: 250px;
+    width: 200px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+}
+/**
+baby 2
+**/
+.baby2{
+    position: absolute;
+    top: 800px ; 
+    left: 270px;
+}
+.baby2 .bebe2{
+    height: 350px;
+    width: 230px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+}
+/***
+* baby 3
+**/
+.baby3{
+    position: absolute;
+    top: 850px ; 
+    left: 525px;
+}
+.baby3 .bebe3{
+    height: 250px;
+    width: 200px; 
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+    
+}
+
+/***
+* categoria mini
+**/
+.mini{
+    position: absolute;
+    top: 700px;
+    right: 350px;
+}
+
+.mini h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* mini 2
+**/
+.mini1{
+    position: absolute;
+    top: 850px ;
+    right: 50px;
+}
+.mini1 .minis1{
+    height: 250px;
+    width: 200px;
+    
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+ }
+ .mini2{
+    position: absolute;
+    top: 800px ; 
+    right: 270px;
+}
+.mini2 .minis2{
+    height: 350px;
+    width: 230px;
+  
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+}
+/***
+* mini 3
+**/
+.mini3{
+    position: absolute;
+    top: 850px ; 
+    right: 525px;
+}
+.mini3 .minis3{
+    height: 250px;
+    width: 200px; 
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+}
+/***
+* categoria miRIM
+**/
+.mirim{
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+}
+.mirim h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* mirim1
+**/
+.mirim1{
+    position: absolute;
+    top: 1300px ; 
+    left: 425px;
+}
+.mirim1 .mirims1{
+    height: 300px;
+    width: 200px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+}
+/***
+* mirim2
+**/
+.mirim2{
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+}
+.mirim2 .mirims2{
+    height: 300px;
+    width: 200px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;
+
+}
+/***
+* categoria miRIM
+**/
+.infantil{
+    position: absolute;
+    top: 1200px;
+    right: 350px;
+}
+.infantil h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* infantil1
+**/
+.infantil1{
+    position: absolute;
+    top: 1300px;
+    right: 425px;;
+}
+.infantil1 .infantiu1{
+    height: 300px;
+    width: 200px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;  
+}
+/***
+* infantil2
+**/
+.infantil2{
+    position: absolute;
+    top: 1300px;
+    right: 200px;;
+}
+.infantil2 .infantiu2{
+    height: 300px;
+    width: 200px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707;  
+}
+/***
+* TEEN
+**/
+.teem{
+    position: absolute;
+    top: 1700px;
+    left: 350px;
+}
+.teem h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* TEEN1
+**/
+.teen1{
+    position: absolute;
+    top: 1850px;
+    left: 50px;
+}
+.teen1 .teens1{
+    height: 250px;
+    width: 200px;
+ 
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+/***
+* TEEN2
+**/
+.teen2{
+    position: absolute;
+    top: 1800px;
+    left: 270px;
+}
+.teen2 .teens2{
+    height: 350px;
+    width: 230px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+/***
+* TEEN2
+**/
+.teen3{
+    position: absolute;
+    top: 1850px;
+    left: 525px;
+}
+.teen3 .teens3{
+    height: 250px;
+    width: 200px;
+ 
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+/***
+* juvenil
+**/
+.juvenil{
+    position: absolute;
+    top: 1700px;
+    right: 350px;
+}
+
+.juvenil h7{
+    font-family: 'TT Phobos Trial', sans-serif;
+    border-bottom: 5px solid var(--color-primary);
+    font-size: 35px;
+}
+/***
+* juvenil1
+**/
+.juvenil1{
+    position: absolute;
+    top: 1850px;
+    right: 50px;
+}
+.juvenil1 .juvenils1{
+    height: 250px;
+    width: 200px;
+ 
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+/***
+* juvenil2
+**/
+.juvenil2{
+    position: absolute;
+    top: 1800px;
+    right: 270px;
+}
+.juvenil2 .juvenils2{
+    height: 350px;
+    width: 230px;
+
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+/***
+* juvenil3
+**/
+.juvenil3{
+    position: absolute;
+    top: 1850px;
+    right: 525px;
+}
+.juvenil3 .juvenils3{
+    height: 250px;
+    width: 200px;
+ 
+    border-radius: 30px;
+    background: #000000;
+    box-shadow: 15px 15px 20px #bebebe,
+               -10px -5px 25px #070707; 
+}
+
+
+/***
+* 3 PAGINA(INDEX) 
+**/
+.divulgar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #232323;
+    overflow: hidden;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+.divulgar::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ef3b36;
+    clip-path: circle(65% at 100% -20%);
+}
+
+.divulgar::after{
+    content: '';
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #47aafa;
+    clip-path: circle(35% at 0% 100%);
+}
+.tabela{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tabela .chamar{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    backdrop-filter: blur(15px);
+}
+.tabela .chamar .imgBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+.tabela .chamar:hover .imgBx{
+    transform: translateY(-100px);
+}
+
+.tabela .chamar .imgBx img{
+    max-width: 100%;
+    margin: 0 0 20px;
+    transition: 0.5s ease-in-out;
+}
+.tabela .chamar:hover .imgBx img{
+    transform: translate(-20px,-40px) rotate(-25deg) scale(1.4);
+}
+.tabela .chamar .imgBx a{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    top: 70%;
+    list-style: none;
+}
+.tabela .chamar .imgBx a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.tabela .chamar .imgBx a:hover, .tabela .chamar .imgBx a:focus{
+    color: red;
+}
+
+
+.tabela .chamar .preco{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.tabela .chamar:hover .preco{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(-50px);
+
+}
+.tabela .chamar .preco .size, .tabela .chamar .preco .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+.tabela .chamar .preco .size h3, .tabela .chamar .preco .color h3{
+    color: #ffffff;
+    font-weight: 900px;
+    font-size: 25px;
+    
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.size {
+    text-shadow: 0.1em 0.1em #ff0000;
+}
+.color{
+    text-shadow: 0.1em 0.1em #ff0000;
+}
+
+/*
+BOTAO
+*/
+ .informacoes{
+    top: 480px;
+    right: 80px;
+    position: fixed;
+
+    outline: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 140px;
+    height: 50px;
+    border-radius: 0.5em;
+    box-shadow: 0 1em 1em 0 rgba(255, 0, 0, 0.35);
+    overflow: hidden;
+   }
+   .informacoes div {
+    transform: translateY(0px);
+    width: 100%;
+   }
+   .informacoes,
+.informacoes div {
+ transition: 0.6s cubic-bezier(.16,1,.3,1);
+}
+
+.informacoes div span {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 50px;
+ padding: 0.75em 1.125em;
+}
+
+.informacoes div:nth-child(1) {
+ background-color: #cd1515c8;
+}
+
+.informacoes div:nth-child(2) {
+ background-color: #ffffff;
+}
+
+.informacoes:hover {
+ box-shadow: 0 0.625em 1em 0 rgba(255, 255, 255, 0.35);
+}
+
+.informacoes:hover div {
+ transform: translateY(-80px);
+}
+
+.informacoes p {
+ font-size: 17px;
+ font-weight: bold;
+ color: #000000;
+}
+
+.informacoes:active {
+ transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+* responsivo 
+**/
+@media only screen and (max-whidth: 360px) {
+
+    body {
+        background-color: red ;
+    }
+     .home{
+             background-image: url(../imagens/fundo.png);
+             height: 760px;
+     }
+    .home .banner .teen{
+        font-size: 5px;
+    }
+
+}
