@@ -937,6 +937,9 @@ baby 2
     background-color: #47aafa;
     clip-path: circle(35% at 0% 100%);
 }
+
+
+/*                                 */
 .tabela{
     position: relative;
     z-index: 10;
@@ -979,25 +982,28 @@ baby 2
 .tabela .chamar:hover .imgBx img{
     transform: translate(-20px,-40px) rotate(-25deg) scale(1.4);
 }
+
 .tabela .chamar .imgBx a{
     position: absolute;
     color: #fff;
     font-weight: 600;
     top: 70%;
     list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 .tabela .chamar .imgBx a{
     color: #fff;
     font-weight: 600;
     font-size: 25px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-.tabela .chamar .imgBx a:hover, .tabela .chamar .imgBx a:focus{
-    color: red;
+    
+    
 }
 
 
+
+/*                                 */
 .tabela .chamar .preco{
     position: absolute;
     bottom: 20px;
@@ -1018,16 +1024,18 @@ baby 2
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 20px;
+    padding: 2px 25px;
 }
 .tabela .chamar .preco .size h3, .tabela .chamar .preco .color h3{
     color: #ffffff;
     font-weight: 900px;
-    font-size: 25px;
+    font-size: 20px;
     
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-right: 10px;
 }
+
+
 .size {
     text-shadow: 0.1em 0.1em #ff0000;
 }
@@ -1095,6 +1103,23 @@ BOTAO
 
 .informacoes:active {
  transform: scale(0.95);
+}
+
+/*
+BOTAO COMPRAR
+*/
+.tabela .chamar .preco .botaoComprar a{
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 40px;
+    background: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
