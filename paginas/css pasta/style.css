@@ -9,12 +9,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/**************BOTAR EM UM SECTION*****************************************************************************/
 body {
     background: #01006b;
     background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #000211), color-stop(17%, #030026), to(#06002e));
     background: linear-gradient(180deg, #01006b 0%, #000211 0%, #030026 17%, #06002e 100%);
-    height: 250vh;
+    height: 350vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -89,6 +89,7 @@ body {
     font-size: 20px;
     
 }
+/**********************************ATÉ AQUI PODE TIRAR(AQUI PRA CIMA)*******************************************/
 
 .home .banner h1{
     font-size: 50px;
@@ -105,6 +106,8 @@ body {
 CARDS
 ****************/
 h2{
+    
+    
     color:white;
 }
 .janela{
@@ -145,11 +148,11 @@ background-color: rgba(8, 8, 8, 0.486);
      border-radius: 13px;
 
 width: 320px;
-height: 150px;
+height: 180px;
 
 position: absolute;
 top: 1090px;
-left: 600px;
+left: 400px;
 }
 .premiacao .plano h6{
     border-bottom: 1px solid var(--color-primary);
@@ -160,6 +163,8 @@ left: 600px;
         
 }
 .premiacao .plano p{
+    text-align: center;
+    flex-direction: column;
     color: white;
     font-size: 20px;
    padding-top: 15px;
@@ -168,6 +173,46 @@ left: 600px;
     -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
             box-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
+
+
+
+
+.quadrado1{
+    background-color: rgba(8, 8, 8, 0.486);
+         border-radius: 13px;
+    
+    width: 320px;
+    height: 180px;
+    
+    position: absolute;
+    top: 1090px;
+    left: 800px;
+    }
+    .quadrado1 .quadrado2 h6{
+        border-bottom: 1px solid var(--color-primary);
+        color: white;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: center;
+            
+    }
+    .quadrado1 .quadrado2 p{
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        font-size: 20px;
+       padding-top: 20px;
+    }
+    .quadrado1:hover{
+        -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
+                box-shadow: 2px 2px 10px rgb(255, 255, 255);
+    }
+
+
+
+
+
+
 /***************
 card 2
 ****************/
@@ -176,11 +221,11 @@ background-color: rgba(8, 8, 8, 0.486);
      border-radius: 13px;
 
 width: 300px;
-height: 300px;
+height: 270px;
 
 position: absolute;
 top: 1300px;
-left: 200px;
+left: 600px;
 }
 .textos h6{
     border-bottom: 1px solid var(--color-primary);
@@ -190,9 +235,10 @@ left: 200px;
     font-size: 24px;
 }
 .textos p{
+    text-align: center;
     color: white;
     font-size: 18px;
-   padding-top: 20px;
+   padding-top: 35px;
 }
 .container2:hover{
     -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
@@ -209,8 +255,8 @@ card 3
     height: 300px;
     
     position: absolute;
-    top: 1300px;
-    left: 600px;
+    top: 1700px;
+    left: 200px;
     }
 .textos2 h6{
     border-bottom: 1px solid var(--color-primary);
@@ -220,14 +266,48 @@ card 3
     font-size: 24px;
     }
 .textos2 p{
+    text-align: center;
     color: white;
     font-size: 17px;
-    padding-top: 20px;
+    padding-top: 50px;
     }
 .container3:hover{
     -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
             box-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
+
+/***************
+REGRA
+****************/
+.container5{
+    background-color: rgba(8, 8, 8, 0.486);
+         border-radius: 13px;
+    
+    width: 300px;
+    height: 300px;
+    
+    position: absolute;
+    top: 1700px;
+    left: 600px;
+    }
+.textos4 h6{
+    border-bottom: 1px solid var(--color-primary);
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    }
+.textos4 p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 30px;
+    }
+.container5:hover{
+    -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
+            box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
 /***************
 TEXTO
 ****************/
@@ -236,7 +316,7 @@ TEXTO
     color: white;
     position: absolute;
     top: 1000px;
-    left: 600px;
+    left: 550px;
     }
 /***************
 card 4
@@ -249,7 +329,7 @@ card 4
     height: 300px;
         
     position: absolute;
-    top: 1300px;
+    top: 1700px;
     left: 1000px;
     }
 .textos3 h6{
@@ -263,6 +343,7 @@ card 4
     color: white;
     font-size: 16px;
     padding-top: 20px;
+    text-align: center;
     }
 .container4:hover{
     -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
@@ -272,7 +353,7 @@ card 4
 
 .linkada{
     position: absolute;
-    top: 1700px;
+    top: 2200px;
     left: 650px;
 }
 
