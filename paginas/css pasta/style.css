@@ -256,7 +256,7 @@ card 3
     
     position: absolute;
     top: 1700px;
-    left: 200px;
+    left: 80px;
     }
 .textos2 h6{
     border-bottom: 1px solid var(--color-primary);
@@ -288,7 +288,7 @@ REGRA
     
     position: absolute;
     top: 1700px;
-    left: 600px;
+    left: 400px;
     }
 .textos4 h6{
     border-bottom: 1px solid var(--color-primary);
@@ -330,7 +330,7 @@ card 4
         
     position: absolute;
     top: 1700px;
-    left: 1000px;
+    left: 730px;
     }
 .textos3 h6{
     border-bottom: 1px solid var(--color-primary);
@@ -342,13 +342,49 @@ card 4
 .textos3 p{
     color: white;
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     }
 .container4:hover{
     -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
              box-shadow: 2px 2px 10px rgb(255, 255, 255);
     }
+
+
+    .container6{
+        background-color: rgba(8, 8, 8, 0.486);
+        border-radius: 13px;
+           
+       width: 300px;
+       height: 300px;
+           
+       position: absolute;
+       top: 1700px;
+       left: 1070px;
+       }
+   .textos5 h6{
+       border-bottom: 1px solid var(--color-primary);
+       color: white;
+       padding-top: 20px;
+       text-align: center;
+       font-size: 24px;
+       }  
+   .textos5 p{
+       color: white;
+       font-size: 16px;
+       padding-top: 20px;
+       text-align: center;
+       }
+   .container6:hover{
+       -webkit-box-shadow: 2px 2px 10px rgb(255, 255, 255);
+                box-shadow: 2px 2px 10px rgb(255, 255, 255);
+       }
+
+
+
+
+
+
 
 
 .linkada{

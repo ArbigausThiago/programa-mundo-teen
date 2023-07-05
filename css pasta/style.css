@@ -126,13 +126,14 @@ body {
 ****************/
 .about{  
     background-color: var(--color-terceio);
-    height: 80vh;
+    height: 85vh;
 }
 .about .container{
     display: flex;
 }
 .about .time{
     width: 33%;
+    height: 600px;
     padding: 20px;
     background-image: url(../imagens/thuany.jpeg);
     position: relative;
@@ -141,6 +142,7 @@ body {
 }
 
 .about .time .overlay{
+    height: 500px;
     background-color: rgba(0,0,0, 0.8);
     display: flex;
     flex-direction: column;
@@ -236,7 +238,7 @@ box-shadow:  9px 9px 10px #544f4f,
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color: black;
 text-align: center;
-padding-top: 10px;
+
 }
 .card .quadradoP span{
     font-size: 25px;
@@ -245,7 +247,7 @@ padding-top: 10px;
 }
 .card .quadradoP p{
     font-size:18px;
-    padding-top: 35px;
+    padding-top: 25px;
 }
 /***************
 * about-card 2
@@ -276,7 +278,7 @@ padding-top: 10px;
     }
     .card2 .quadrado2 p{
         font-size:18px;
-        padding-top: 35px;
+        padding-top: 20px;
     }   
 /***************
 * about- PARTE FINAL
@@ -306,11 +308,11 @@ color:rgb(255, 255, 255);
 ****************/
 .continuação .container2{
     display: flex;
-    border-radius: 13px;
+    border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.445);
 
 width: 220px;
-height: 200px;
+height: 220px;
 
 position: absolute;
     top: 130px;
@@ -321,11 +323,12 @@ text-align: center;
 .continuação .container2 .textos h6{
     padding-top: 10px;
     text-align: center;
-    font-size: 24px;
+    font-size: 29px;
 }
 .continuação .container2 .textos p{
+    text-align: center;
     font-size: 18px;
-   padding-top: 20px;
+   padding-top: 10px;
 }
 /***************
 * about- quadrado2
@@ -336,7 +339,7 @@ text-align: center;
     background-color: rgba(0, 0, 0, 0.445);
 
 width: 220px;
-height: 200px;
+height: 220px;
 
 position: absolute;
     top: 250px;
@@ -349,11 +352,12 @@ text-align: center;
     padding-top: 10px;
     
     text-align: center;
-    font-size: 22px;  
+    font-size: 33px;  
 }
 .continuação .janela .textoes p{
+    text-align: center;
     font-size: 18px;
-   padding-top: 20px;
+   padding-top: 10px;
 } 
 /***************
 * about- quadrado3
@@ -374,7 +378,7 @@ text-align: center;
 }
 .continuação .premiacao .plano h6{
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
         
 }
